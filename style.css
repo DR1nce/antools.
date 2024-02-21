@@ -34,6 +34,7 @@ border-radius: 8px;
 background: #FF6E30;
 border: inherit;
 margin-right: 150px;
+padding-bottom: 60px;
 }
 .sign-button-text{
     color: #FDF5FF;
@@ -42,6 +43,7 @@ margin-right: 150px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+   
 }
 .login{
     color: rgba(255, 255, 255, 0.78);
