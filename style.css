@@ -10,7 +10,10 @@ body{
 .antools-img{
   padding: 0 250px;
 }
-.menu{
+ul{
+  list-style-type: none;
+}
+.menu-list{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,7 +159,7 @@ height: 48px;
   }
 
 .top{ 
- background: url(./illustration.png) no-repeat right;
+ background: url(./imgs/illustration.png) no-repeat right;
 }
   .top-info {
     position: relative;
