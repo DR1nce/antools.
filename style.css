@@ -37,7 +37,6 @@ border-radius: 8px;
 background: #FF6E30;
 border: inherit;
 margin-right: 150px;
-padding-bottom: 60px;
 }
 .sign-button-text{
     color: #FDF5FF;
@@ -46,7 +45,7 @@ padding-bottom: 60px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-   
+ 
 }
 .login{
     color: rgba(255, 255, 255, 0.78);
@@ -232,17 +231,19 @@ text-align: center;
 height: 253px;
 flex-shrink: 0;
 }
-.newcomer-main-title{
+ .newcomer-titles{
+  padding: 50px;
+ }
+
+.newcomer-title{
   color: rgba(255, 255, 255, 0.90);
 font-family: Poppins;
 font-size: 48px;
 font-style: normal;
 font-weight: 500;
-line-height: 130%; 
+line-height: 130%; /* 62.4px */
 }
-
 .newcomer-subtitle{
-  width: 427px;
   color: rgba(255, 255, 255, 0.55);
 font-family: Poppins;
 font-size: 18px;
@@ -251,11 +252,10 @@ font-weight: 500;
 line-height: 30px; /* 166.667% */
 }
 .newcomer-button{
-margin-top: 50px;
   width: 198px;
-height: 58px;
-flex-shrink: 0;
-border-radius: 8px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 8px;
 background: #FF6E30;
 border: inherit;
 }
@@ -266,21 +266,9 @@ font-size: 18px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-
 }
 
-.newcomer-cards{
-   display: grid;
-   grid-template-columns: repeat(2, 300px);
-   grid-template-rows: repeat(2, 300px);
-   justify-items: end;
-   align-items: start;
- }
-
-  
-
-
-.zeplin-title{
+.cards-title{
   color: rgba(255, 255, 255, 0.78);
 font-family: Poppins;
 font-size: 24px;
@@ -288,7 +276,11 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.zeplin-gold-title{
+.cards-img{
+  width: 56px;
+  height: 44px;
+}
+.cards-gold{
   color: rgba(255, 165, 55, 0.55);
 font-family: Poppins;
 font-size: 18px;
@@ -296,39 +288,57 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.zeplin-subtitle{
+.php-gold{
+  color: #FFA537;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.php-title{
+  color: rgba(255, 255, 255, 0.90);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.cards-subtitle{
   color: rgba(255, 255, 255, 0.55);
 font-family: Poppins;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 214.286% */
-width: 245px;
 }
-.zeplin-button{
-  width: 106px;
-height: 42px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #1E252B;
-border: inherit;
-padding: 0 0 45px;
-}
-.zeplin-button:hover{
-  border-radius: 8px;
-background: #FF6E30;
-
-}
-.zeplin-button-text{
-  color: rgba(255, 255, 255, 0.55);
+.php-subtitle{
+  color: rgba(255, 255, 255, 0.78);
 font-family: Poppins;
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
-font-weight: 600;
-line-height: normal;
-
+font-weight: 400;
+line-height: 30px; /* 214.286% */
 }
 
-.zeplin-button-text:hover{
-  color: white;
+.cards{
+  width: 570px;
+  height: 610px;
 }
+.zeplin{
+  width: 280px;
+  height: 285px;
+}
+.phpstorm{
+  width: 280px;
+  height: 285px;
+}
+.toolbox{
+  width: 280px;
+  height: 285px;
+}
+.procreate{
+  width: 280px;
+  height: 285px;
+}
+
