@@ -231,8 +231,15 @@ text-align: center;
 height: 253px;
 flex-shrink: 0;
 }
+
+.newcom{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
  .newcomer-titles{
-  padding: 50px;
+  margin: 0;
  }
 
 .newcomer-title{
@@ -242,6 +249,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 500;
 line-height: 130%; /* 62.4px */
+margin: 0;
 }
 .newcomer-subtitle{
   color: rgba(255, 255, 255, 0.55);
@@ -268,6 +276,12 @@ font-weight: 500;
 line-height: normal;
 }
 
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
 .cards-title{
   color: rgba(255, 255, 255, 0.78);
 font-family: Poppins;
@@ -275,6 +289,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin: 0;
 }
 .cards-img{
   width: 56px;
@@ -303,6 +318,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin: 0;
 }
 .cards-subtitle{
   color: rgba(255, 255, 255, 0.55);
@@ -342,3 +358,28 @@ line-height: 30px; /* 214.286% */
   height: 285px;
 }
 
+.slider{
+  display: flex;
+justify-content: space-between  ;
+  align-items: center;
+  
+}
+
+.slider-text{
+  color: rgba(255, 255, 255, 0.78);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+letter-spacing: 0.21px;
+}
+.slider-main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.slider-svg{
+  padding: 45px;
+}
