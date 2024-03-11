@@ -37,6 +37,7 @@ border-radius: 8px;
 background: #FF6E30;
 border: inherit;
 margin-right: 150px;
+cursor: pointer;
 }
 .sign-button-text{
     color: #FDF5FF;
@@ -216,6 +217,7 @@ flex-shrink: 0;
 border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.10);
 background: #1E252B;
+cursor: pointer;
 }
 .tool-button-text{
   color: #FF6E30;
@@ -266,6 +268,7 @@ line-height: 30px; /* 166.667% */
   border-radius: 8px;
 background: #FF6E30;
 border: inherit;
+cursor: pointer;
 }
 .newcomer-button-text{
   color: #FFF;
@@ -374,6 +377,7 @@ font-weight: 400;
 line-height: 30px; 
 letter-spacing: 0.21px;
 }
+
 .slider-main{
 display: flex;
 flex-direction: column;
@@ -495,12 +499,17 @@ font-family: Poppins;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 25px; /* 178.571% */
+line-height: 25px; 
   }
   .first-links{
     display: flex;
     flex-direction: column;
     gap: 17px;
+  }
+  .other-links{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
   }
   .other-links-main-text{
     color: rgba(255, 255, 255, 0.90);
